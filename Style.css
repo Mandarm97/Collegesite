@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a {
+    text-decoration: none;
+}
+.img1{
+    display: flex;
+    height: 100px;
+}
+.college{
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-text{
+    color: white;
+}
+#homeImg{
+    width: 100%;
+    height: auto;
+}
+/* Staff */
+.card {
+    background-color: #333;
+    border-radius: 10px;
+    outline: 1px solid ;
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px ;
+    position: relative;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.15);
+}
+/* contact */
+.contact{
+    align-items: center;
+
+}
+/* backGround color */
+#contactColor{
+  background: #c31432;
+background: -webkit-linear-gradient(to right, #240b36, #c31432); 
+background: linear-gradient(to right, #240b36, #c31432); 
+}
+#aboutColor{
+    background: #1F1C2C;
+background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);
+background: linear-gradient(to right, #928DAB, #1F1C2C);
+}
+/* #indexColor{
+    background: #0f0c29; 
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+} */
+/* #indexColor{
+    background: #0f0c29; 
+background: -webkit-linear-gradient(to right, #ce3e3e, #ce3e3e, #ce3e3e);  
+background: linear-gradient(to right, #e04502, #e04510, #e04600); 
+} */
